@@ -45,8 +45,8 @@ pipeline {
                     cleanWs()
                     checkout([
                         $class: 'GitSCM',
-                        branches: [[name: '*/main']],
-                        userRemoteConfigs: [[url: 'https://github.com/sunnysavita10/automated-research-report-generation.git']]
+                        branches: [[name: '*/master']],
+                        userRemoteConfigs: [[url: 'https://github.com/Lokendra-singh-Rathore9/automated-research-report-generation.git']]
                     ])
                 }
             }
