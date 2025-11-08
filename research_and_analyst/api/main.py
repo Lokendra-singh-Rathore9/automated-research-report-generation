@@ -37,4 +37,4 @@ async def health_check():
     }
 
 # Register Routes
-app.include_router(report_routes.router)
+app.include_router(report_routes.router) 
